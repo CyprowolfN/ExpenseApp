@@ -1,2 +1,0 @@
-# ExpenseApp
-Add expenses
