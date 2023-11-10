@@ -6,13 +6,6 @@ const ExpenseForm = (props) => {
   const [enteredAmount, setEnteredAmount] = useState("");
   const [enteredDate, setEnteredDate] = useState("");
 
-  // This allows you to handle multiple states in object format...
-  // const [userInput, setUserInput] = useState({
-  //   enteredTitle: '',
-  //   enteredAmount: '',
-  //   enteredDate: ''
-  // });
-
   const titleChangeHandler = (event) => {
     setEnteredTitle(event.target.value);
   };
